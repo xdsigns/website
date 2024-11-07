@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #333333;
+}
+
+
+#wrap {
+	width:900px;
+	height: 100%;
+	margin:0 auto;
+	background-color:#333333;
+
+}
+
+.clearfix{ clear:both}
+
+p{ color: #333333; font-size: 8pt; font-family:Verdana, Arial, Helvetica, sans-serif; } 
+.red { color: #e61d36; font-size: 12pt; font-family:Verdana, Arial, Helvetica, sans-serif; font-weight:500; }
+
+.bull { color: #e61d36; font-size: 7pt; font-family:Verdana, Arial, Helvetica, sans-serif; font-weight:200; }
+
+
+a { text-decoration:none; color:#CC3300;}
+A:visited {text-decoration: none}
+A:active {text-decoration: none; color: #000000;}
+A:hover { font-style:italic ; color: red;}
+
+/**********menu**********/
+
+a.rollover { float:right; display: block;     width: 100px;     height: 15px;     text-decoration: none;     background: url("images/m1_01.jpg");     } 
+a.rollover:hover {     background-position: -100px 0;     } 
+.displace {     position: absolute;     left: -5000px;     } 
+
+a.rollover1 { float:right; display: block;     width: 100px;     height: 15px;     text-decoration: none;     background: url("images/m1_02.jpg");     } 
+a.rollover1:hover {     background-position: -100px 0;     } 
+.displace {     position: absolute;     left: -5000px;     } 
+
+a.rollover2 { float:right; display: block;     width: 100px;     height: 15px;     text-decoration: none;     background: url("images/m1_03.jpg");     } 
+a.rollover2:hover {     background-position: -100px 0;     } 
+.displace {     position: absolute;     left: -5000px;     } 
+
+a.rollover3 { float:right; display: block;     width: 100px;     height: 15px;     text-decoration: none;     background: url("images/m1_04.jpg");     } 
+a.rollover3:hover {     background-position: -100px 0;     } 
+.displace {     position: absolute;     left: -5000px;     } 
+
+a.rollover4 { float:right; display: block;     width: 100px;     height: 15px;     text-decoration: none;     background: url("images/m1_05.jpg");     } 
+a.rollover4:hover {     background-position: -100px 0;     } 
+.displace {     position: absolute;     left: -5000px;     } 
+
+/**********menu**********/
+
+#header {height:164px;width:900px}
+#header .logo{ width:525px; height:137px;background-color:#FFFFFF; float:left; background-image:url(images/logo.jpg);}
+#circles{ width:375px; height:164px;background-color:#FFFFFF; float:right; background-image:url(images/circles.jpg);}
+#header .menu{ width:525px; height:27px;background-color:#FFFFFF; float:left; background-image:url(images/mb.jpg); }
+
+#lbd	{height:252px;width:9px; float:left; background-image:url(images/lbd.jpg) }
+#banner {height:252px;width:882px;float:left; }
+#rbd	{height:252px;width:9px; float:left;  background-image:url(images/rbd.jpg) }
+
+
+
+#linfo {height:328px;width:29px;float:left;background-image:url(images/l.jpg);}
+#info {height:238px;width:244px;float:left;background-image:url(images/m.jpg); padding-top:90px; padding-left:15px;padding-right:15px;}
+#rinfo {height:290px;width:574px;float:left;background-image:url(images/r.jpg); padding-left:23px; padding-top: 38px; }
+
+
+
+#photodiv {background-repeat:no-repeat;}
+
+
+
+
+#easy {height:132px;width:470px;float:left;background-image:url(images/easy.jpg);}
+#flash {height:132px;width:430px;float:left;background-image:url(images/flash.jpg);}
+
+#ls {height:235px;width:10px;float:left;background-image:url(images/ls.jpg);}
+#steps {height:235px;width:880px;float:left;}
+
+#steps .one {height:235px;width:221px;float:left;background-image:url(images/one.jpg);}
+#steps .two {height:235px;width:219px;float:left;background-image:url(images/two.jpg);}
+#steps .three {height:235px;width:219px;float:left;background-image:url(images/three.jpg);}
+#steps .four {height:235px;width:221px;float:left;background-image:url(images/four.jpg);}
+
+
+#rs {height:235px;width:10px;float:left;background-image:url(images/rs.jpg);}
+
+#mb {height:30px;width:700px;float:left;background-image:url(images/mbb.jpg); padding-top:15px; padding-right:200px;}
+#footer {height:44px;width:900px;float:left; background-image:url(images/footer.jpg);}
+
+
+
+/**************** ABOUT US ******************/
+
+#atext {height:100%;width:900px; background-image:url(images/awide.jpg); background-repeat: repeat; float:left;}
+#atext .aname { height:500px;width:40px; background-image:url(images/aname.jpg); float:left; margin-left:10px;}
+#atext .abt { height:100%;width:385px;float:left; padding-left:20px; padding-top:30px; padding-right:25px;}
+#atext .abtr { height:600px;;width:360px; float:left;margin-left:10;padding-left:20px; padding-right:25px; margin-left:10px;
+padding-top:30px; background-image:url(images/abrb.jpg); margin-top:80px; background-repeat:no-repeat;}
+
+
+
+/**************** CONTACT US ******************/
+
+#atext .cname { height:500px;width:40px; background-image:url(images/cname.jpg); float:left; margin-left:10px;}
+#atext .cont1 { height:470px;width:400px; background-image:url(images/cna); float:left; padding-left:30px; padding-top:30px;}
+#atext .cont2 { height:500px;width:350px; background-image:url(images/cn); float:left; background-image:url(images/contstick.jpg); background-repeat:no-repeat; margin-left:70px;}
+
+
+
+/**************** SERVICES ******************/
+
+#atext .serv { height:100%;width:625px; background-image:url(images/cna); float:left; padding-left:15px;}
+#atext .serv1 { height:100%;width:185px; padding-left:15px; float:left; padding-top:40px;}
+#atext .sname { height:500px;width:40px; background-image:url(images/sname.jpg); float:left; margin-left:10px;}
+
+/**************** service individuals ******************/
+
+
+#atext .iserv {	height:100%; width: 625px; float:left; padding-left:25px; padding-top:25px; padding-right:50px;			}
+#atext .iservr {	height:400px; width: 140px; float:left;	padding-left:25px; 	 padding-top:25px;		}
+#atext .sepr {	height:400px; width: 2px; float:left; margin-top:50px; background-image: url(images/sepr.jpg);}
+
+
+
+
+
+
+
+
+
+/**************** SERVICES Rollover ******************/
+
+a.rolloverrt { float:left; display: block;     width: 200px;     height: 110px;     text-decoration: none;     background: url("images/services/3d.jpg"); margin:3px;    } 
+a.rolloverrt:hover {     background-position: -200px 0;     } 
+.displace {     position: absolute;     left: -5000px;     } 
+
+a.rollovereng { float:left; display: block;     width: 200px;     height: 110px;     text-decoration: none;     background: url("images/services/eng.jpg"); margin:3px;    } 
+a.rollovereng:hover {     background-position: -200px 0;     } 
+.displace {     position: absolute;     left: -5000px;     } 
+
+a.rolloverdp { float:left; display: block;     width: 200px;     height: 110px;     text-decoration: none;     background: url("images/services/dp.jpg"); margin:3px;    } 
+a.rolloverdp:hover {     background-position: -200px 0;     } 
+.displace {     position: absolute;     left: -5000px;     } 
+
+a.rolloverlb { float:left; display: block;     width: 200px;     height: 110px;     text-decoration: none;     background: url("images/services/lb.jpg"); margin:3px;    } 
+a.rolloverlb:hover {     background-position: -200px 0;     } 
+.displace {     position: absolute;     left: -5000px;     } 
+
+a.rollovervs { float:left; display: block;     width: 200px;     height: 110px;     text-decoration: none;     background: url("images/services/vs.jpg"); margin:3px;    } 
+a.rollovervs:hover {     background-position: -200px 0;     } 
+.displace {     position: absolute;     left: -5000px;     } 
+
+a.rollovermn { float:left; display: block;     width: 200px;     height: 110px;     text-decoration: none;     background: url("images/services/mn.jpg"); margin:3px;    } 
+a.rollovermn:hover {     background-position: -200px 0;     } 
+.displace {     position: absolute;     left: -5000px;     } 
+
+a.rollovergd { float:left; display: block;     width: 200px;     height: 110px;     text-decoration: none;     background: url("images/services/gd.jpg"); margin:3px;    } 
+a.rollovergd:hover {     background-position: -200px 0;     } 
+.displace {     position: absolute;     left: -5000px;     } 
+
+a.rolloverld { float:left; display: block;     width: 200px;     height: 110px;     text-decoration: none;     background: url("images/services/ld.jpg"); margin:3px;    } 
+a.rolloverld:hover {     background-position: -200px 0;     } 
+.displace {     position: absolute;     left: -5000px;     } 
+
+a.rolloverss { float:left; display: block;     width: 200px;     height: 110px;     text-decoration: none;     background: url("images/services/ss.jpg"); margin:3px;    } 
+a.rolloverss:hover {     background-position: -200px 0;     } 
+.displace {     position: absolute;     left: -5000px;     } 
+
+a.rollovermnt { float:left; display: block;     width: 200px;     height: 110px;     text-decoration: none;     background: url("images/services/mnt.jpg"); margin:3px;    } 
+a.rollovermnt:hover {     background-position: -200px 0;     } 
+.displace {     position: absolute;     left: -5000px;     } 
+
+a.rolloverins { float:left; display: block;     width: 200px;     height: 110px;     text-decoration: none;     background: url("images/services/ins.jpg"); margin:3px;    } 
+a.rolloverins:hover {     background-position: -200px 0;     } 
+.displace {     position: absolute;     left: -5000px;     } 
+
+a.rolloverbn { float:left; display: block;     width: 200px;     height: 110px;     text-decoration: none;     background: url("images/services/bn.jpg"); margin:3px;    } 
+a.rolloverbn:hover {     background-position: -200px 0;     } 
+.displace {     position: absolute;     left: -5000px;     } 
+
+a.rolloverlfp { float:left; display: block;     width: 200px;     height: 110px;     text-decoration: none;     background: url("images/services/lfp.jpg"); margin:3px;    } 
+a.rolloverlfp:hover {     background-position: -200px 0;     } 
+.displace {     position: absolute;     left: -5000px;     } 
+
+a.rolloveraf { float:left; display: block;     width: 200px;     height: 110px;     text-decoration: none;     background: url("images/services/af.jpg"); margin:3px;    } 
+a.rolloveraf:hover {     background-position: -200px 0;     } 
+.displace {     position: absolute;     left: -5000px;     } 
+
+a.rolloverps { float:left; display: block;     width: 200px;     height: 110px;     text-decoration: none;     background: url("images/services/ps.jpg"); margin:3px;    } 
+a.rolloverps:hover {     background-position: -200px 0;     } 
+.displace {     position: absolute;     left: -5000px;     } 
+
+
+/*******************showcase************/
+
+#atext .cont1s { height:100%;width:800px; background-image:url(images/cna); float:left; padding-left:10px; padding-top:30px;}
+#atext .iservrs {	height:400px; width: 180px; float:left;	padding-left:25px; 	 padding-top:25px;		}
+#atext .shname { height:500px;width:40px; background-image:url(images/shname.jpg); float:left; margin-left:10px;}
+
+
+/*******************metal************/
+
+#atext .contsm { height:100%;width:550px; background-image:url(images/cna); float:left; padding-left:10px; padding-top:30px; padding-right:30px;}
+#atext .iservrsm {	height:400px; width: 230px; float:left; padding-top:30px; padding-left:17px;		}
+#atext .mfname { height:500px;width:40px; background-image:url(images/mfname.jpg); float:left; margin-left:10px;}

@@ -18,6 +18,44 @@
 
 <script type="text/javascript" src="js/photoshuffler.js"></script>
 
+<script type="text/javascript" src="highslide/highslide-with-gallery.js"></script>
+<link rel="stylesheet" type="text/css" href="highslide/highslide.css" />
+
+<script type="text/javascript">
+	hs.graphicsDir = 'highslide/graphics/';
+	hs.align = 'center';
+	hs.transitions = ['expand', 'crossfade'];
+	hs.fadeInOut = true;
+	hs.dimmingOpacity = 0.8;
+	hs.outlineType = 'rounded-white';
+	hs.captionEval = 'this.thumb.alt';
+	hs.marginBottom = 105 
+	hs.numberPosition = 'caption';
+
+	
+	hs.addSlideshow({
+		//slideshowGroup: 'group1',
+		interval: 5000,
+		repeat: false,
+		useControls: true,
+		overlayOptions: {
+			className: 'text-controls',
+			position: 'bottom center',
+			relativeTo: 'viewport',
+			offsetY: -60
+
+		},
+		thumbstrip: {
+			position: 'bottom center',
+			mode: 'horizontal',
+			relativeTo: 'viewport'
+		}
+	});
+</script>
+<script type="text/javascript">
+    hs.showCredits = false;
+</script>
+
 <script src="js/AC_RunActiveContent.js" type="text/javascript"></script>
 </head>
 
@@ -42,67 +80,54 @@
         </div>
     </div>
  
- <div id="clearfix"> </div>
+<div id="clearfix"> </div>
 
 	<div id="lbd"></div>
+    <div id="banner"><img src="images/FLASH/mbanner.jpg" width="882" height="252" /></div>
+  <div id="rbd"></div>
 
-	<div id="banner">
-	  <script type="text/javascript">
-AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','882','height','252','src','images/FLASH/BANNER','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','movie','images/FLASH/BANNER' ); //end AC code
-</script><noscript><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="882" height="252">
-        <param name="movie" value="images/FLASH/BANNER.swf" />
-        <param name="quality" value="high" />
-        <embed src="images/FLASH/BANNER.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="882" height="252"></embed>
-      </object>
-	</noscript></div>
+<div id="clearfix"> </div>
+
+<div id="atext">
+    <div class="mfname"> </div>
+    <div class="contsm">    <p class="red">XD Signs Metal Fabrication Factory</p>
+	  <p><img src="images/metalwork.jpg" />      
+	  <p>Our dedicated fabrication factory is one of the main reasons as to why XD stand our from the rest. The professionall engineers are able to manufacture almost anything we require. From frames, to steel bearm boxes and more we can handle the job.    
+      <p>
+      The engineers will make sure that the project is made with precision and the quality is excelllent.
+      <p><br />
+	    <br />
     
-    <div id="rbd"></div>
+     <a class='highslide' href='images/mf/m1.jpg' onclick="return hs.expand(this)">
+	 <img src='images/mf/m1t.jpg' alt='Menu'/></a>
+     <a class='highslide' href='images/mf/m2.jpg' onclick="return hs.expand(this)">
+	 <img src='images/mf/m2t.jpg' alt='Menu'/></a>
+     <a class='highslide' href='images/mf/m3.jpg' onclick="return hs.expand(this)">
+	 <img src='images/mf/m3t.jpg' alt='Menu'/></a>    
+     
+     </div>
+             <div class="sepr"> </div>
+    
+    <div class="iservrsm">
+    <p class="red">Contact Information</p>
+    
+    <img src="images/metal1.jpg" />
+    
+    <p> 
+    Nagi Mengi <br />
+    Mob. 0425 366 949<br />
+    Ph. 9734 8446<br />
+    <br />
+    
+    
+  </div>
 
- <div id="clearfix"> </div>
- 
-	<div id="linfo"> </div>
-  <div id="info">
-    <p>Welcome to Express Digital Signs !<br />
-        <br />
-
-We are a well established and reputable Sign Writing and Media Solutions company 
-located in the heart of Sydney.  <br /><br />
-
-We specialise in menu boards,  light boxes, 3D lettering, 
-wide format digital printing, display stands, window signs, 
-exhibition stands, banners, event signs, neon signs, vehicle signs and wraps, 
-construction signs,   graphic design and sign maintenance.
-
-<P>Please take your time to view our diverse online portfolio. </div> 
-	<div id="rinfo">
-<div id="photodiv">
-<img id="photoimg" src="images/slide/show3.jpg" />
 </div>
 
-       
-
-    </div>
-    
-<div id="clearfix"> </div>    
-
-	<div id="easy"> </div>
-	<div id="flash"> </div> 
-
-<div id="clearfix"> </div>  
-
-	<div id="ls"> </div>
-	<div id="steps"> 
-        <div class="one"></div>
-            <div class="two"></div>
-                <div class="three"></div>
-                    <div class="four"></div> 
-    
-    </div>
-	<div id="rs"> </div>
 
 <div id="clearfix"> </div> 
 
-	<div id="mb">
+<div id="mb">
             <div class="menu">
         <a href="contact.html" class="rollover4" title="Contact Us"><span class="displace">Contact Us</span></a> 
         <a href="showcase.html" class="rollover3" title="Showcase"><span class="displace">Showcase</span></a>
@@ -122,6 +147,8 @@ construction signs,   graphic design and sign maintenance.
 	<div id="footer"> </div>
 
 <div id="clearfix"> </div> 
+
+
 
 </div>
 </body>
