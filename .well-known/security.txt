@@ -1,0 +1,4 @@
+Contact: mailto:admin@xdsigns.com.au
+Expires: 2028-07-31T14:00:00.000Z
+Preferred-Languages: en
+Canonical: https://www.xdsigns.com.au/.well-known/security.txt
